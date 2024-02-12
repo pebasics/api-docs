@@ -1,5 +1,5 @@
 # Description
-API Endpoint returns unique token for user whos data is sent in request. Returns HTML errors and error ID as explained under [errors](https://github.com/pebasics/api-docs/Errors).
+API Endpoint returns unique token for user whos data is sent in request. Returns HTML errors and error ID as explained under [errors](https://github.com/pebasics/api-docs/tree/main/Errors).
 
 # API Request
 Method: POST
