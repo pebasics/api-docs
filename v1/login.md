@@ -2,12 +2,12 @@
 API Endpoint returns unique token for user whos data is sent in request. Returns HTML errors and error ID as explained under [errors](https://github.com/pebasics/api-docs/tree/main/Errors).
 
 # API Request
-Method: POST
-One of the following:
-    email - plain text
-    username - plain text
-Requested
-    password - plain text
+- Method: POST
+    - One of the following:
+        - email - plain text
+        - username - plain text
+    - Requested
+        - password - plain text
 
 *Note: all values are checked by API endpoint prior to processing, but client side verification is advisable to prevent users from being locked out due to API call limitations.
 
