@@ -1,7 +1,7 @@
 # PEB Ecosystem API documentation
 
 # Why documentation?
-Documentation is required as idea behind PEB Ecosystem is to be free and open for its members and content creators to be free to use which ever app they prefer to have integration with API.
+Documentation is required as idea behind PEB Ecosystem is to be free and open for its members and content creators to use with which ever app they prefer to have integration with API.
 
 # Endpoints
 API consists of various endpoints, all being well documented in respective folder. Each endpoint lives inside its API version and category.
