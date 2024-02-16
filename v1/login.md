@@ -9,6 +9,9 @@ API Endpoint returns unique token for user whos data is sent in request. Returns
     - Requested
         - password - plain text
 
+# API Location
+https://api.peb.rs/v1/login
+
 *Note: all values are checked by API endpoint prior to processing, but client side verification is advisable to prevent users from being locked out due to API call limitations.
 
 # Response
