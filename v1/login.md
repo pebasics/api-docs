@@ -14,15 +14,17 @@ API Endpoint returns unique token for user whos data is sent in request. Returns
 # Response
 HTML status from server is always 200
 Content is application/json type
+```
     status:
         200 - all OK, sends token value
-        4XX - consult APIS-A-5 for further information
+        4XX - consult [errors](https://github.com/pebasics/api-docs/tree/main/Errors) for further information
     token (if status = 200)
         token value - 128 character lowercase alphanumeric value
     valid_till (if status= 200)
         human readable date/time till token is valid. It's using ISO 8601 format (ie. 2023‐09‐25T01:21:20)
     valid_till_unix (if status = 200)
         if end point needs to display various information or to track when token expires (ie. 1695600885)
+```
 
 # Examples
 Note: these examples are sent via POST method
