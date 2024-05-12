@@ -6,7 +6,7 @@ API Endpoint returns unique token for user whos data is sent in request. Returns
     - One of the following:
         - email - plain text
         - username - plain text
-    - Requested
+    - Required
         - password - plain text
 
 # API Location
