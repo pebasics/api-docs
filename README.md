@@ -44,4 +44,4 @@ All errors are returned with clear HTTP status codes (e.g., 400 Bad Request, 500
 
 The PEB Ecosystem API is designed to be intuitive, reliable, and future-proof, enabling seamless integration and fostering innovation. Explore the documentation, experiment with the endpoints, and create something amazing within the PEB ecosystem!
 
-For further assistance or feedback, please reach out to our support team.
+For further assistance or feedback, please reach out to our <a href="mailto:support@peb.rs">support</a> team.
