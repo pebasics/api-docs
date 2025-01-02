@@ -33,6 +33,7 @@ Content is application/json type
 ```
 
 # Examples
+> NOTE: Tokens are truncated to maximum length of 20 characters. tokens are 128 lowercase alphanumeric string.
 ## Successfull token renewal
 Request method: POST
 Request
@@ -54,7 +55,7 @@ Response
 ## Token renewal with improperly formatted token
 Request
 ```
-{"token":"822828b1a1348e9eeb9b38eb12517c150"}
+{"token":"822828b1a1348e9eeb9b"}
 ```
 
 Response
@@ -69,7 +70,7 @@ Response
 ## Token renewal attempt with GET method
 Request
 ```
-{"token":"b0e869f9707a0ceb019795aa8b2c2b06fbee8dc4207da822828b1a1348e9eeb9b38eb12517c150cbce3cd653c09d3314c7dfbf53a54358b97f1d4c0f6b68103f"}
+{"token":"cd653c09d3314c7dfbf5"}
 ```
 
 Response
