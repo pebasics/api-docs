@@ -1,5 +1,5 @@
 # Explanation
-One of required fields is missing.
+One of required fields is missing
 
 # Solution
-Check API documentation on what fields are required and which ones are optional.
+Please check https://api.peb.rs/list/endpoints for required and optional fields for endpoints

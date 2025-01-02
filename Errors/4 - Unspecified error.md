@@ -1,5 +1,5 @@
 # Explanation
-Unspecified error.
+API is permanently unavailable
 
 # Solution
-This could happen during API update. Wait for some time and try again. If error persists, contact us.
+Please check https://api.peb.rs/list/endpoints for list of available endpoints

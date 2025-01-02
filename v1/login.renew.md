@@ -2,7 +2,15 @@
 API Endpoint returns unique token that is replacement for old one sent with requiest. After this endpoint has responded, old token is invalid after this moment. Returns HTML errors and error ID as explained under [errors](https://github.com/pebasics/api-docs/tree/main/Errors).
 
 # API Request
-- Method: POST
+## API endpoint
+URL: https://api.peb.rs/v1/login/renew
+<br>
+Accepted request methods: POST
+
+| Parameter      | Type   | Description                     |
+|----------------|--------|---------------------------------|
+| `password`     | string | User's password in plain text   |
+| `user`         | string | Either user email or username   |
     - Required
         - token - 128 character lowercase alphanumeric string
 
@@ -25,19 +33,21 @@ Content is application/json type
 ```
 
 # Examples
-Note: these examples are sent via POST method
-
 ## Successfull token renewal
+Request method: POST
 Request
 ```
-{"token":"8aca2602792aec6f11a67206531fb7d7f0dff59413145e6973c45001d0087b42d11bc645413aeff63a42391a39145a591a92200d560195e53b478584fdae231a"}
+{
+    "token":"0dff59413145e6973c45"
+}
 ```
-
 Response
 ```
 {
-    "status":"200",
-    "token":"b0e869f9707a0ceb019795aa8b2c2b06fbee8dc4207da822828b1a1348e9eeb9b38eb12517c150cbce3cd653c09d3314c7dfbf53a54358b97f1d4c0f6b68103f"
+    "status": 200,
+    "token": "8aca2602792aec6f11af",
+    "valid_till": "2023-09-25T01:21:20",
+    "valid_till_unix": 1695600885
 }
 ```
 
