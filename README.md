@@ -1,7 +1,7 @@
 # PEB Ecosystem API Documentation
 ## Overview
 
-The PEB Ecosystem API provides a robust and versatile interface for developers, content creators, and users to integrate seamlessly with the PEB platform. As part of our commitment to openness and accessibility, this API enables smooth integration across various applications while fostering innovation and collaboration within the ecosystem.
+The PEB Ecosystem API provides a robust and versatile interface for developers, content creators, and users to integrate seamlessly with the PEB platform. As part of our commitment to openness and accessibility, this API enables smooth integration across various applications while fostering innovation and collaboration within the Ecosystem.
 
 This documentation serves as a comprehensive guide to help you understand, use, and integrate with the PEB Ecosystem API effectively.
 ## Why Documentation Matters
@@ -42,6 +42,6 @@ All errors are returned with clear HTTP status codes (e.g., 400 Bad Request, 500
 
 ## Conclusion
 
-The PEB Ecosystem API is designed to be intuitive, reliable, and future-proof, enabling seamless integration and fostering innovation. Explore the documentation, experiment with the endpoints, and create something amazing within the PEB ecosystem!
+The PEB Ecosystem API is designed to be intuitive, reliable, and future-proof, enabling seamless integration and fostering innovation. Explore the documentation, experiment with the endpoints, and create something amazing within the PEB Ecosystem!
 
 For further assistance or feedback, please reach out to our <a href="mailto:support@peb.rs">support</a> team.
