@@ -4,6 +4,9 @@
 The PEB Ecosystem API provides a robust and versatile interface for developers, content creators, and users to integrate seamlessly with the PEB platform. As part of our commitment to openness and accessibility, this API enables smooth integration across various applications while fostering innovation and collaboration within the Ecosystem.
 
 This documentation serves as a comprehensive guide to help you understand, use, and integrate with the PEB Ecosystem API effectively.
+
+You can test API endpoints directly using our interactive development portal at [https://dev.peb.rs](https://dev.peb.rs). The portal features Swagger UI, allowing you to explore, try out requests, and view responses in real time for a streamlined development experience.
+
 ## Why Documentation Matters
 
 Documentation is essential to achieving the vision behind the PEB Ecosystem: to create a free, open, and developer-friendly platform. By providing detailed information about API usage, this documentation empowers developers to build integrations that align with their unique requirements, ensuring flexibility and efficiency.
