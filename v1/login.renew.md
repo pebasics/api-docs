@@ -7,25 +7,21 @@ URL: https://api.peb.rs/v1/login/renew
 <br>
 Accepted request methods: POST
 
-| Parameter      | Type   | Description                     |
-|----------------|--------|---------------------------------|
-| `password`     | string | User's password in plain text   |
-| `user`         | string | Either user email or username   |
-    - Required
-        - token - 128 character lowercase alphanumeric string
+| Parameter      | Type   | Description                         |
+|----------------|--------|-------------------------------------|
+| `token`        | string | 128 character alphanumeric string   |
 
 # API Location
 https://api.peb.rs/v1/login/renew
 
 # Response
-HTML status from server is always 200
-Content is application/json type
+Content-Type is `application/json`
 ```
     status
         200 - token found, check new_token for updated token value
         4XX - consult [errors](https://github.com/pebasics/api-docs/tree/main/Errors) for further information
     new_token (if status = 200)
-        token value - 128 character lowercase alphanumeric string
+        token value - 128 character alphanumeric string
     valid_till (if status= 200)
         human readable date/time till token is valid. It's using ISO 8601 format (ie. 2023‐09‐25T01:21:20)
     valid_till_unix (if status = 200)
@@ -33,7 +29,7 @@ Content is application/json type
 ```
 
 # Examples
-> NOTE: Tokens are truncated to maximum length of 20 characters. tokens are 128 lowercase alphanumeric string.
+> NOTE: Tokens are truncated to maximum length of 20 characters. tokens are 128 alphanumeric string.
 ## Successfull token renewal
 Request method: POST
 Request
