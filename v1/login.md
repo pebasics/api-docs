@@ -34,13 +34,13 @@ Response Fields:
 | `status`                  | Always      | int    | Status of request. See [HTML status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)              |
 | `require_password_change` | Conditional | bool   | Determines if the user should reset password. Sent only if specific conditions are met                                     |
 | `password_change_token`   | Conditional | string | Password reset token. See [password reset](./login.reset.password.md)                                                      |
-| `token`                   | Success     | string | A 128-character lowercase alphanumeric string                                                                              |
+| `token`                   | Success     | string | A 128-character alphanumeric string                                                                                        |
 | `valid_till_unix`         | Success     | int    | Unix timestamp indicating the expiration time of the token (e.g., 1695600885)                                              |
 | `valid_till`              | Success     | string | Human-readable date and time until the token is valid, formatted in ISO 8601 (e.g., 2023-09-25T01:21:20) in UTC+0 timezone |
 | `error_id`                | Error       | int    | ID of error occured while processing request. See [errors](../Errors/) for further information                             |
 
 ## Examples
-> NOTE: token values are truncated to 20 characters in examples. Real token will be string of 128 lowercase alphanumeric characters.
+> NOTE: token values are truncated to 20 characters in examples. Real token will be string of 128 alphanumeric characters.
 
 ### 1. Successful Login with Email and Password
 Request method: POST
